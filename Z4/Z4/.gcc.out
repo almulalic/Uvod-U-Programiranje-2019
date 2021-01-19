@@ -1,0 +1,10 @@
+/rhome/a/amulalic1/workspace/UUP/Z4/Z4/main.c: In function ‘izracunaj’:
+/rhome/a/amulalic1/workspace/UUP/Z4/Z4/main.c:91:6: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+    ok=1;
+      ^
+/rhome/a/amulalic1/workspace/UUP/Z4/Z4/main.c:42:6: warning: unused variable ‘finalnaSuma’ [-Wunused-variable]
+  int finalnaSuma=0;
+      ^~~~~~~~~~~
+/rhome/a/amulalic1/workspace/UUP/Z4/Z4/main.c:37:6: warning: unused variable ‘suma’ [-Wunused-variable]
+  int suma,i=0,j=0,djelilac=1,_broj=0,operand=-1,preznak=1;
+      ^~~~

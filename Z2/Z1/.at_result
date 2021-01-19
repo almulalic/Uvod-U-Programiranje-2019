@@ -1,0 +1,344 @@
+{
+    "buildhost_description": {
+        "id": "magi",
+        "os": "Linux 4.15.0-65-generic x86_64\nUbuntu 18.04.3 LTS\n"
+    },
+    "tools": {
+        "compile": "gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0",
+        "compile[debug]": "gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0",
+        "debug": "GNU gdb (Ubuntu 8.1-0ubuntu3.2) 8.1.0.20180409-git",
+        "profile[memcheck]": "valgrind-3.13.0",
+        "profile[sgcheck]": "valgrind-3.13.0"
+    },
+    "status": 4,
+    "test_results": {
+        "1": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "execute": {
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Neispravan interval!",
+                    "duration": 0,
+                    "status": 5,
+                    "exit_code": 1,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Neispravan interval!",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Neispravan interval!",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "2": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "execute": {
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Nedozvoljena vrijednost!",
+                    "duration": 0,
+                    "status": 5,
+                    "exit_code": 1,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Nedozvoljena vrijednost!",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Nedozvoljena vrijednost!",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "3": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "execute": {
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Neispravan interval!",
+                    "duration": 0,
+                    "status": 5,
+                    "exit_code": 1,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Neispravan interval!",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Neispravan interval!",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "4": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "execute": {
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Unesite eksponent: Neispravan eksponent!",
+                    "duration": 0,
+                    "status": 5,
+                    "exit_code": 1,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Unesite eksponent: Neispravan eksponent!",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Unesite eksponent: Neispravan eksponent!",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "5": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "execute": {
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Unesite eksponent: Unesite korak diskretizacije: Korak    x            y = f(x)\n----------------------------------\n    1. 1.000000         1.00000\n    2. 1.001000         1.00100\n    3. 1.002000         1.00200\n    4. 1.003000         1.00300\n(...)\n 4000. 4.999000         4.99900\n----------------------------------\nP(x^1)[1,5]= 11.998000 (dx=0.001)",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Unesite eksponent: Unesite korak diskretizacije: Korak    x            y = f(x)\n----------------------------------\n    1. 1.000000         1.00000\n    2. 1.001000         1.00100\n    3. 1.002000         1.00200\n    4. 1.003000         1.00300\n(...)\n 4000. 4.999000         4.99900\n----------------------------------\nP(x^1)[1,5]= 11.998000 (dx=0.001)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Unesite eksponent: Unesite korak diskretizacije: Korak    x            y = f(x)\n----------------------------------\n    1. 1.000000         1.00000\n    2. 1.001000         1.00100\n    3. 1.002000         1.00200\n    4. 1.003000         1.00300\n(...)\n 4000. 4.999000         4.99900\n----------------------------------\nP(x^1)[1,5]= 11.998000 (dx=0.001)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "6": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "execute": {
+                    "output": "Unesite prvu tacku intervala: Nedozvoljena vrijednost!",
+                    "duration": 0,
+                    "status": 5,
+                    "exit_code": 1,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "Unesite prvu tacku intervala: Nedozvoljena vrijednost!",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "Unesite prvu tacku intervala: Nedozvoljena vrijednost!",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "7": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "execute": {
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Unesite eksponent: Unesite korak diskretizacije: Korak    x            y = f(x)\n----------------------------------\n    1. 1.000000         1.00000\n    2. 1.001000         1.00501\n    3. 1.002000         1.01004\n    4. 1.003000         1.01509\n(...)\n 8000. 8.999000     59016.20229\n----------------------------------\nP(x^5)[1,9]= 88543.812067 (dx=0.001)",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Unesite eksponent: Unesite korak diskretizacije: Korak    x            y = f(x)\n----------------------------------\n    1. 1.000000         1.00000\n    2. 1.001000         1.00501\n    3. 1.002000         1.01004\n    4. 1.003000         1.01509\n(...)\n 8000. 8.999000     59016.20229\n----------------------------------\nP(x^5)[1,9]= 88543.812067 (dx=0.001)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Unesite eksponent: Unesite korak diskretizacije: Korak    x            y = f(x)\n----------------------------------\n    1. 1.000000         1.00000\n    2. 1.001000         1.00501\n    3. 1.002000         1.01004\n    4. 1.003000         1.01509\n(...)\n 8000. 8.999000     59016.20229\n----------------------------------\nP(x^5)[1,9]= 88543.812067 (dx=0.001)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "9": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "execute": {
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Unesite eksponent: Unesite korak diskretizacije: Korak    x            y = f(x)\n----------------------------------\n    1. 1.000000         1.00000\n\n----------------------------------\nP(x^9)[1,2]= 1.000000 (dx=1)",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Unesite eksponent: Unesite korak diskretizacije: Korak    x            y = f(x)\n----------------------------------\n    1. 1.000000         1.00000\n\n----------------------------------\nP(x^9)[1,2]= 1.000000 (dx=1)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Unesite eksponent: Unesite korak diskretizacije: Korak    x            y = f(x)\n----------------------------------\n    1. 1.000000         1.00000\n\n----------------------------------\nP(x^9)[1,2]= 1.000000 (dx=1)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "10": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "execute": {
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Unesite eksponent: Unesite korak diskretizacije: Korak    x            y = f(x)\n----------------------------------\n    1. 1.000000         1.00000\n    2. 1.500000        38.44336\n\n----------------------------------\nP(x^9)[1,2]= 19.721680 (dx=0.5)",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Unesite eksponent: Unesite korak diskretizacije: Korak    x            y = f(x)\n----------------------------------\n    1. 1.000000         1.00000\n    2. 1.500000        38.44336\n\n----------------------------------\nP(x^9)[1,2]= 19.721680 (dx=0.5)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Unesite eksponent: Unesite korak diskretizacije: Korak    x            y = f(x)\n----------------------------------\n    1. 1.000000         1.00000\n    2. 1.500000        38.44336\n\n----------------------------------\nP(x^9)[1,2]= 19.721680 (dx=0.5)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "11": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "execute": {
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Unesite eksponent: Unesite korak diskretizacije: Korak    x            y = f(x)\n----------------------------------\n    1. 1.000000         1.00000\n    2. 2.000000        32.00000\n    3. 3.000000       243.00000\n    4. 4.000000      1024.00000\n\n----------------------------------\nP(x^5)[1,5]= 1300.000000 (dx=1)",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Unesite eksponent: Unesite korak diskretizacije: Korak    x            y = f(x)\n----------------------------------\n    1. 1.000000         1.00000\n    2. 2.000000        32.00000\n    3. 3.000000       243.00000\n    4. 4.000000      1024.00000\n\n----------------------------------\nP(x^5)[1,5]= 1300.000000 (dx=1)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "Unesite prvu tacku intervala: Unesite drugu tacku intervala: Unesite eksponent: Unesite korak diskretizacije: Korak    x            y = f(x)\n----------------------------------\n    1. 1.000000         1.00000\n    2. 2.000000        32.00000\n    3. 3.000000       243.00000\n    4. 4.000000      1024.00000\n\n----------------------------------\nP(x^5)[1,5]= 1300.000000 (dx=1)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        }
+    },
+    "time": 1575204743
+}

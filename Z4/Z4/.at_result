@@ -1,0 +1,176 @@
+{
+    "buildhost_description": {
+        "id": "lab002c03",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "gcc (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.c: In function ‘izracunaj’:\nmain.c:53:33: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]\n    preznak = (*(izraz-1) == '-' && (*(izraz-2) == '-' || *(izraz-2)=='+' ) || (*(izraz-1) == '-' && indexBrojevi==0)) ? -1:1;\n               ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nmain.c:42:6: warning: unused variable ‘finalnaSuma’ [-Wunused-variable]\n  int finalnaSuma=0;\n      ^~~~~~~~~~~\nmain.c:37:6: warning: unused variable ‘suma’ [-Wunused-variable]\n  int suma,i=0,j=0,djelilac=1,_broj=0,operand=-1,preznak=1;\n      ^~~~",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "53",
+                "col": "33",
+                "message": "suggest parentheses around '&&' within '||'",
+                "output": "/tmp/buildservice/bs_1886/main.c:53:33: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]    preznak = (*(izraz-1) == '-' && (*(izraz-2) == '-' || *(izraz-2)=='+' ) || (*(izraz-1) == '-' && indexBrojevi==0)) ? -1:1;               ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+                "code": "preznak = (*(izraz-1) == '-' && (*(izraz-2) == '-' || *(izraz-2)=='+' ) || (*(izraz-1) == '-' && indexBrojevi==0)) ? -1:1;"
+            },
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "42",
+                "col": "6",
+                "message": "unused variable 'finalnaSuma'",
+                "output": "/tmp/buildservice/bs_1886/main.c:42:6: warning: unused variable ‘finalnaSuma’ [-Wunused-variable]  int finalnaSuma=0;      ^~~~~~~~~~~",
+                "code": "int finalnaSuma=0;"
+            },
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "37",
+                "col": "6",
+                "message": "unused variable 'suma'",
+                "output": "/tmp/buildservice/bs_1886/main.c:37:6: warning: unused variable ‘suma’ [-Wunused-variable]  int suma,i=0,j=0,djelilac=1,_broj=0,operand=-1,preznak=1;      ^~~~",
+                "code": "int suma,i=0,j=0,djelilac=1,_broj=0,operand=-1,preznak=1;"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "1074": {
+            "status": 1,
+            "run_result": {
+                "output": "4 0 0 -4\n1 1 1 1",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1075": {
+            "status": 1,
+            "run_result": {
+                "output": "10 -2\n1 1 0",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1076": {
+            "status": 1,
+            "run_result": {
+                "output": "greska\ngreska\ngreska\nok",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1077": {
+            "status": 1,
+            "run_result": {
+                "output": "greska\ngreska\ngreska\ngreska\ngreska\nok",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1080": {
+            "status": 1,
+            "run_result": {
+                "output": "rezultat je: 111\nrezultat je: 13702\nrezultat je: 81",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1081": {
+            "status": 1,
+            "run_result": {
+                "output": "rezultat je: -109\nrezultat je: 10988\nrezultat je: 3",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1082": {
+            "status": 1,
+            "run_result": {
+                "output": "rezultat je: 1000\nrezultat je: 151782\nrezultat je: 0\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1083": {
+            "status": 1,
+            "run_result": {
+                "output": "rezultat je: 10\nrezultat je: 83\nrezultat je: 0",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1088": {
+            "status": 6,
+            "run_result": {
+                "output": "greska\ngreska\nrezultat je: 4888\ngreska\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1577542814
+}

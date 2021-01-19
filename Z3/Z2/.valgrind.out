@@ -1,0 +1,15 @@
+==24898== Memcheck, a memory error detector
+==24898== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==24898== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==24898== Command: /rhome/a/amulalic1/workspace/UUP/Z3/Z2/.runme
+==24898== Parent PID: 24880
+==24898== 
+==24898== 
+==24898== HEAP SUMMARY:
+==24898==     in use at exit: 0 bytes in 0 blocks
+==24898==   total heap usage: 1 allocs, 1 frees, 1,024 bytes allocated
+==24898== 
+==24898== All heap blocks were freed -- no leaks are possible
+==24898== 
+==24898== For counts of detected and suppressed errors, rerun with: -v
+==24898== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

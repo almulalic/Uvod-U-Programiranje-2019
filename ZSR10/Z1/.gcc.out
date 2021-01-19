@@ -1,0 +1,4 @@
+/rhome/a/amulalic1/workspace/UUP/ZSR10/Z1/main.c: In function ‘pronadji_posljednji’:
+/rhome/a/amulalic1/workspace/UUP/ZSR10/Z1/main.c:8:17: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+    pocetakRijeci=s;
+                 ^

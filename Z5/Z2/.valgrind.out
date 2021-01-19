@@ -1,0 +1,42 @@
+==31331== Memcheck, a memory error detector
+==31331== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==31331== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==31331== Command: /rhome/a/amulalic1/workspace/UUP/Z5/Z2/.runme
+==31331== Parent PID: 31327
+==31331== 
+==31331== Syscall param write(buf) points to uninitialised byte(s)
+==31331==    at 0x514E154: write (write.c:27)
+==31331==    by 0x50C91BC: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1203)
+==31331==    by 0x50CAF50: new_do_write (fileops.c:457)
+==31331==    by 0x50CAF50: _IO_do_write@@GLIBC_2.2.5 (fileops.c:433)
+==31331==    by 0x50CA30F: _IO_file_close_it@@GLIBC_2.2.5 (fileops.c:136)
+==31331==    by 0x50BC386: fclose@@GLIBC_2.2.5 (iofclose.c:53)
+==31331==    by 0x108A96: zapisi (main.c:63)
+==31331==    by 0x108C90: main (main.c:94)
+==31331==  Address 0x543156c is 12 bytes inside a block of size 8,192 alloc'd
+==31331==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31331==    by 0x50BC18B: _IO_file_doallocate (filedoalloc.c:101)
+==31331==    by 0x50CC378: _IO_doallocbuf (genops.c:365)
+==31331==    by 0x50CB497: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:759)
+==31331==    by 0x50C99EC: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1266)
+==31331==    by 0x50BD976: fwrite (iofwrite.c:39)
+==31331==    by 0x108A7E: zapisi (main.c:60)
+==31331==    by 0x108C90: main (main.c:94)
+==31331== 
+==31331== 
+==31331== HEAP SUMMARY:
+==31331==     in use at exit: 552 bytes in 1 blocks
+==31331==   total heap usage: 4 allocs, 3 frees, 17,488 bytes allocated
+==31331== 
+==31331== LEAK SUMMARY:
+==31331==    definitely lost: 0 bytes in 0 blocks
+==31331==    indirectly lost: 0 bytes in 0 blocks
+==31331==      possibly lost: 0 bytes in 0 blocks
+==31331==    still reachable: 552 bytes in 1 blocks
+==31331==         suppressed: 0 bytes in 0 blocks
+==31331== Reachable blocks (those to which a pointer was found) are not shown.
+==31331== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==31331== 
+==31331== For counts of detected and suppressed errors, rerun with: -v
+==31331== Use --track-origins=yes to see where uninitialised values come from
+==31331== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

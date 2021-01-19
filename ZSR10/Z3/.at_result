@@ -1,0 +1,105 @@
+{
+    "buildhost_description": {
+        "id": "lab002c26",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "gcc (GCC) 6.2.0",
+        "debugger_version": "",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": ""
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "1394": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_1394.c: In function ‘main’:\nbs_test_1394.c:48:16: warning: implicit declaration of function ‘izbaci_tekst’ [-Wimplicit-function-declaration]\n printf(\"'%s'\", izbaci_tekst(niz, \"dan\"));\n                ^~~~~~~~~~~~\n/tmp/cchXuCGZ.o: In function `main':\nbs_test_1394.c:(.text+0x15a): undefined reference to `izbaci_tekst'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 2,
+                        "col": "16",
+                        "message": "implicit declaration of function 'izbaci_tekst'",
+                        "output": "/tmp/buildservice/bs_8701/bs_test_1394.c:48:16: warning: implicit declaration of function ‘izbaci_tekst’ [-Wimplicit-function-declaration] printf(\"'%s'\", izbaci_tekst(niz, \"dan\"));                ^~~~~~~~~~~~/tmp/cchXuCGZ.o: In function `main':bs_test_1394.c:(.text+0x15a): undefined reference to `izbaci_tekst'collect2: error: ld returned 1 exit status",
+                        "code": "printf(\"'%s'\", izbaci_tekst(niz, \"dan\"));"
+                    }
+                ]
+            }
+        },
+        "1395": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_1395.c: In function ‘main’:\nbs_test_1395.c:48:16: warning: implicit declaration of function ‘izbaci_tekst’ [-Wimplicit-function-declaration]\n printf(\"'%s'\", izbaci_tekst(niz, \"abc\"));\n                ^~~~~~~~~~~~\n/tmp/ccP34Gs4.o: In function `main':\nbs_test_1395.c:(.text+0x150): undefined reference to `izbaci_tekst'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 2,
+                        "col": "16",
+                        "message": "implicit declaration of function 'izbaci_tekst'",
+                        "output": "/tmp/buildservice/bs_8701/bs_test_1395.c:48:16: warning: implicit declaration of function ‘izbaci_tekst’ [-Wimplicit-function-declaration] printf(\"'%s'\", izbaci_tekst(niz, \"abc\"));                ^~~~~~~~~~~~/tmp/ccP34Gs4.o: In function `main':bs_test_1395.c:(.text+0x150): undefined reference to `izbaci_tekst'collect2: error: ld returned 1 exit status",
+                        "code": "printf(\"'%s'\", izbaci_tekst(niz, \"abc\"));"
+                    }
+                ]
+            }
+        },
+        "1396": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_1396.c: In function ‘main’:\nbs_test_1396.c:48:16: warning: implicit declaration of function ‘izbaci_tekst’ [-Wimplicit-function-declaration]\n printf(\"'%s'\", izbaci_tekst(niz, \"rikurs\"));\n                ^~~~~~~~~~~~\n/tmp/ccGfiryd.o: In function `main':\nbs_test_1396.c:(.text+0x175): undefined reference to `izbaci_tekst'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 2,
+                        "col": "16",
+                        "message": "implicit declaration of function 'izbaci_tekst'",
+                        "output": "/tmp/buildservice/bs_8701/bs_test_1396.c:48:16: warning: implicit declaration of function ‘izbaci_tekst’ [-Wimplicit-function-declaration] printf(\"'%s'\", izbaci_tekst(niz, \"rikurs\"));                ^~~~~~~~~~~~/tmp/ccGfiryd.o: In function `main':bs_test_1396.c:(.text+0x175): undefined reference to `izbaci_tekst'collect2: error: ld returned 1 exit status",
+                        "code": "printf(\"'%s'\", izbaci_tekst(niz, \"rikurs\"));"
+                    }
+                ]
+            }
+        },
+        "1397": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_1397.c: In function ‘main’:\nbs_test_1397.c:49:18: warning: implicit declaration of function ‘izbaci_tekst’ [-Wimplicit-function-declaration]\n printf(\"'%s'\\n\", izbaci_tekst(niz, \"\"));\n                  ^~~~~~~~~~~~\n/tmp/cc1Rochi.o: In function `main':\nbs_test_1397.c:(.text+0x150): undefined reference to `izbaci_tekst'\nbs_test_1397.c:(.text+0x17b): undefined reference to `izbaci_tekst'\nbs_test_1397.c:(.text+0x1a6): undefined reference to `izbaci_tekst'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 3,
+                        "col": "18",
+                        "message": "implicit declaration of function 'izbaci_tekst'",
+                        "output": "/tmp/buildservice/bs_8701/bs_test_1397.c:49:18: warning: implicit declaration of function ‘izbaci_tekst’ [-Wimplicit-function-declaration] printf(\"'%s'\\n\", izbaci_tekst(niz, \"\"));                  ^~~~~~~~~~~~/tmp/cc1Rochi.o: In function `main':bs_test_1397.c:(.text+0x150): undefined reference to `izbaci_tekst'bs_test_1397.c:(.text+0x17b): undefined reference to `izbaci_tekst'bs_test_1397.c:(.text+0x1a6): undefined reference to `izbaci_tekst'collect2: error: ld returned 1 exit status",
+                        "code": "printf(\"'%s'\\n\", izbaci_tekst(niz, \"\"));"
+                    }
+                ]
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1581162319
+}

@@ -1,0 +1,126 @@
+{
+    "buildhost_description": {
+        "id": "lab002c28",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "gcc (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": ""
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "809": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_809.c: In function ‘main’:\nbs_test_809.c:25:42: warning: implicit declaration of function ‘prva_rijec’ [-Wimplicit-function-declaration]\n printf(\"Broj rijeci u recenici je: %d\\n\",prva_rijec(recenica));\n                                          ^~~~~~~~~~\n/tmp/ccs2TYa1.o: In function `main':\nbs_test_809.c:(.text+0x12a): undefined reference to `prva_rijec'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 2,
+                        "col": "42",
+                        "message": "implicit declaration of function 'prva_rijec'",
+                        "output": "/tmp/buildservice/bs_9294/bs_test_809.c:25:42: warning: implicit declaration of function ‘prva_rijec’ [-Wimplicit-function-declaration] printf(\"Broj rijeci u recenici je: %d\\n\",prva_rijec(recenica));                                          ^~~~~~~~~~/tmp/ccs2TYa1.o: In function `main':bs_test_809.c:(.text+0x12a): undefined reference to `prva_rijec'collect2: error: ld returned 1 exit status",
+                        "code": "printf(\"Broj rijeci u recenici je: %d\\n\",prva_rijec(recenica));"
+                    }
+                ]
+            }
+        },
+        "810": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_810.c: In function ‘main’:\nbs_test_810.c:25:42: warning: implicit declaration of function ‘prva_rijec’ [-Wimplicit-function-declaration]\n printf(\"Broj rijeci u recenici je: %d\\n\",prva_rijec(recenica));\n                                          ^~~~~~~~~~\n/tmp/ccnPMRX6.o: In function `main':\nbs_test_810.c:(.text+0xd5): undefined reference to `prva_rijec'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 2,
+                        "col": "42",
+                        "message": "implicit declaration of function 'prva_rijec'",
+                        "output": "/tmp/buildservice/bs_9294/bs_test_810.c:25:42: warning: implicit declaration of function ‘prva_rijec’ [-Wimplicit-function-declaration] printf(\"Broj rijeci u recenici je: %d\\n\",prva_rijec(recenica));                                          ^~~~~~~~~~/tmp/ccnPMRX6.o: In function `main':bs_test_810.c:(.text+0xd5): undefined reference to `prva_rijec'collect2: error: ld returned 1 exit status",
+                        "code": "printf(\"Broj rijeci u recenici je: %d\\n\",prva_rijec(recenica));"
+                    }
+                ]
+            }
+        },
+        "811": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_811.c: In function ‘main’:\nbs_test_811.c:25:42: warning: implicit declaration of function ‘prva_rijec’ [-Wimplicit-function-declaration]\n printf(\"Broj rijeci u recenici je: %d\\n\",prva_rijec(recenica));\n                                          ^~~~~~~~~~\n/tmp/ccikxOHa.o: In function `main':\nbs_test_811.c:(.text+0xe6): undefined reference to `prva_rijec'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 2,
+                        "col": "42",
+                        "message": "implicit declaration of function 'prva_rijec'",
+                        "output": "/tmp/buildservice/bs_9294/bs_test_811.c:25:42: warning: implicit declaration of function ‘prva_rijec’ [-Wimplicit-function-declaration] printf(\"Broj rijeci u recenici je: %d\\n\",prva_rijec(recenica));                                          ^~~~~~~~~~/tmp/ccikxOHa.o: In function `main':bs_test_811.c:(.text+0xe6): undefined reference to `prva_rijec'collect2: error: ld returned 1 exit status",
+                        "code": "printf(\"Broj rijeci u recenici je: %d\\n\",prva_rijec(recenica));"
+                    }
+                ]
+            }
+        },
+        "812": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_812.c: In function ‘main’:\nbs_test_812.c:26:42: warning: implicit declaration of function ‘prva_rijec’ [-Wimplicit-function-declaration]\n printf(\"Broj rijeci u recenici je: %d\\n\",prva_rijec(recenica));\n                                          ^~~~~~~~~~\n/tmp/cc0rTlif.o: In function `main':\nbs_test_812.c:(.text+0x119): undefined reference to `prva_rijec'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 3,
+                        "col": "42",
+                        "message": "implicit declaration of function 'prva_rijec'",
+                        "output": "/tmp/buildservice/bs_9294/bs_test_812.c:26:42: warning: implicit declaration of function ‘prva_rijec’ [-Wimplicit-function-declaration] printf(\"Broj rijeci u recenici je: %d\\n\",prva_rijec(recenica));                                          ^~~~~~~~~~/tmp/cc0rTlif.o: In function `main':bs_test_812.c:(.text+0x119): undefined reference to `prva_rijec'collect2: error: ld returned 1 exit status",
+                        "code": "printf(\"Broj rijeci u recenici je: %d\\n\",prva_rijec(recenica));"
+                    }
+                ]
+            }
+        },
+        "813": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_813.c: In function ‘main’:\nbs_test_813.c:25:16: warning: implicit declaration of function ‘prva_rijec’ [-Wimplicit-function-declaration]\n    printf(\"%d\",prva_rijec(recenica));\n                ^~~~~~~~~~\n/tmp/ccJLEIol.o: In function `main':\nbs_test_813.c:(.text+0xcf): undefined reference to `prva_rijec'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 2,
+                        "col": "16",
+                        "message": "implicit declaration of function 'prva_rijec'",
+                        "output": "/tmp/buildservice/bs_9294/bs_test_813.c:25:16: warning: implicit declaration of function ‘prva_rijec’ [-Wimplicit-function-declaration]    printf(\"%d\",prva_rijec(recenica));                ^~~~~~~~~~/tmp/ccJLEIol.o: In function `main':bs_test_813.c:(.text+0xcf): undefined reference to `prva_rijec'collect2: error: ld returned 1 exit status",
+                        "code": "printf(\"%d\",prva_rijec(recenica));"
+                    }
+                ]
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1579387987
+}

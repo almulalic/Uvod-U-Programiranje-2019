@@ -1,0 +1,7 @@
+/rhome/a/amulalic1/workspace/UUP/T10/Z3/main.c: In function ‘izbaci_rijec’:
+/rhome/a/amulalic1/workspace/UUP/T10/Z3/main.c:40:16: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+   if(!(*s>='a' && *s<='z' || *s>='A' && *s<='Z'))
+        ~~~~~~~~^~~~~~~~~~
+/rhome/a/amulalic1/workspace/UUP/T10/Z3/main.c:48:11: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+     while(*p++=*s++);
+           ^

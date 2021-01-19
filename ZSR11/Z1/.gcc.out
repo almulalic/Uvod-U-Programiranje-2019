@@ -1,0 +1,7 @@
+/rhome/a/amulalic1/workspace/UUP/ZSR11/Z1/main.c: In function ‘prebrojPredmete’:
+/rhome/a/amulalic1/workspace/UUP/ZSR11/Z1/main.c:15:9: warning: unused variable ‘r’ [-Wunused-variable]
+  char q,r;
+         ^
+/rhome/a/amulalic1/workspace/UUP/ZSR11/Z1/main.c:14:11: warning: unused variable ‘p’ [-Wunused-variable]
+  char *s,*p;
+           ^

@@ -1,0 +1,4 @@
+/rhome/a/amulalic1/workspace/UUP/T12/Z1/main.c: In function ‘main’:
+/rhome/a/amulalic1/workspace/UUP/T12/Z1/main.c:31:5: error: expected declaration or statement at end of input
+     }
+     ^

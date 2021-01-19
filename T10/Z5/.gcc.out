@@ -1,0 +1,4 @@
+/rhome/a/amulalic1/workspace/UUP/T10/Z5/main.c: In function ‘main’:
+/rhome/a/amulalic1/workspace/UUP/T10/Z5/main.c:56:10: warning: unused variable ‘recenica’ [-Wunused-variable]
+     char recenica[100];
+          ^~~~~~~~

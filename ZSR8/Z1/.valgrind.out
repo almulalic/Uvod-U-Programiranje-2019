@@ -1,0 +1,15 @@
+==1182== Memcheck, a memory error detector
+==1182== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1182== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==1182== Command: /rhome/a/amulalic1/workspace/UUP/ZSR8/Z1/.runme
+==1182== Parent PID: 1177
+==1182== 
+==1182== 
+==1182== HEAP SUMMARY:
+==1182==     in use at exit: 0 bytes in 0 blocks
+==1182==   total heap usage: 1 allocs, 1 frees, 1,024 bytes allocated
+==1182== 
+==1182== All heap blocks were freed -- no leaks are possible
+==1182== 
+==1182== For counts of detected and suppressed errors, rerun with: -v
+==1182== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

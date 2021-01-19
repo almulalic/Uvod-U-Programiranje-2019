@@ -1,0 +1,13 @@
+/rhome/a/amulalic1/workspace/UUP/T5/Z5/main.c: In function ‘main’:
+/rhome/a/amulalic1/workspace/UUP/T5/Z5/main.c:6:18: warning: unused variable ‘broj_puta’ [-Wunused-variable]
+  int i=0,j,index,broj_puta=0;
+                  ^~~~~~~~~
+/rhome/a/amulalic1/workspace/UUP/T5/Z5/main.c:6:12: warning: variable ‘index’ set but not used [-Wunused-but-set-variable]
+  int i=0,j,index,broj_puta=0;
+            ^~~~~
+/rhome/a/amulalic1/workspace/UUP/T5/Z5/main.c:6:10: warning: unused variable ‘j’ [-Wunused-variable]
+  int i=0,j,index,broj_puta=0;
+          ^
+/rhome/a/amulalic1/workspace/UUP/T5/Z5/main.c:5:13: warning: variable ‘brojevi’ set but not used [-Wunused-but-set-variable]
+  int unos=0,brojevi[1000],histogram[101];
+             ^~~~~~~

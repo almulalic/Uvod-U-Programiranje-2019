@@ -1,0 +1,10 @@
+/rhome/a/amulalic1/workspace/UUP/T13/Z2/main.c: In function ‘main’:
+/rhome/a/amulalic1/workspace/UUP/T13/Z2/main.c:56:50: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+      while (i<300 && fscanf(ulaz,"%15s%10s%2d%2d%\n", studenti[i].prezime, studenti[i].ime, &studenti[i].broj_bodova1 ,&studenti[i].broj_bodova2) == 4)
+                                                  ^~
+/rhome/a/amulalic1/workspace/UUP/T13/Z2/main.c:74:9: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+         for (j=i; j<brojacUsmeni; j++)
+         ^~~
+/rhome/a/amulalic1/workspace/UUP/T13/Z2/main.c:79:13: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+             temp = usmeni[i];
+             ^~~~

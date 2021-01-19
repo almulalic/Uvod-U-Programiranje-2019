@@ -1,0 +1,11 @@
+/rhome/a/amulalic1/workspace/UUP/T8/Z1/main.c: In function ‘f’:
+/rhome/a/amulalic1/workspace/UUP/T8/Z1/main.c:5:3: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  c=*a+b;
+   ^
+/rhome/a/amulalic1/workspace/UUP/T8/Z1/main.c: In function ‘main’:
+/rhome/a/amulalic1/workspace/UUP/T8/Z1/main.c:16:9: warning: passing argument 2 of ‘f’ makes pointer from integer without a cast [-Wint-conversion]
+  c=f(&a,b);
+         ^
+/rhome/a/amulalic1/workspace/UUP/T8/Z1/main.c:3:5: note: expected ‘int *’ but argument is of type ‘int’
+ int f(int *a,int *b) {
+     ^

@@ -1,0 +1,4 @@
+/rhome/a/amulalic1/workspace/UUP/T5/Z3/main.c: In function ‘main’:
+/rhome/a/amulalic1/workspace/UUP/T5/Z3/main.c:5:24: warning: unused variable ‘nizC’ [-Wunused-variable]
+  float nizA[5],nizB[5],nizC[5];
+                        ^~~~

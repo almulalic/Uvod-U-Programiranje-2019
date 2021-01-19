@@ -1,0 +1,25 @@
+/rhome/a/amulalic1/workspace/UUP/Z4/Z3/main.c: In function ‘max_slog’:
+/rhome/a/amulalic1/workspace/UUP/Z4/Z3/main.c:117:15: warning: passing argument 1 of ‘upisi’ from incompatible pointer type [-Wincompatible-pointer-types]
+         upisi(slogovi+indexNajveceg,rezultat);
+               ^~~~~~~
+/rhome/a/amulalic1/workspace/UUP/Z4/Z3/main.c:26:6: note: expected ‘char *’ but argument is of type ‘char (*)[50]’
+ void upisi(char *prvi,char *drugi) {
+      ^~~~~
+/rhome/a/amulalic1/workspace/UUP/Z4/Z3/main.c:120:34: warning: passing argument 1 of ‘prebrojSlova’ from incompatible pointer type [-Wincompatible-pointer-types]
+             najveci=prebrojSlova(slogovi);
+                                  ^~~~~~~
+/rhome/a/amulalic1/workspace/UUP/Z4/Z3/main.c:37:5: note: expected ‘char *’ but argument is of type ‘char (*)[50]’
+ int prebrojSlova(char *s) {
+     ^~~~~~~~~~~~
+/rhome/a/amulalic1/workspace/UUP/Z4/Z3/main.c:125:34: warning: passing argument 1 of ‘prebrojSlova’ from incompatible pointer type [-Wincompatible-pointer-types]
+                 max=prebrojSlova(slogovi+isti[i]);
+                                  ^~~~~~~
+/rhome/a/amulalic1/workspace/UUP/Z4/Z3/main.c:37:5: note: expected ‘char *’ but argument is of type ‘char (*)[50]’
+ int prebrojSlova(char *s) {
+     ^~~~~~~~~~~~
+/rhome/a/amulalic1/workspace/UUP/Z4/Z3/main.c:132:19: warning: passing argument 1 of ‘upisi’ from incompatible pointer type [-Wincompatible-pointer-types]
+             upisi(slogovi+indexNajveceg+1,rezultat);
+                   ^~~~~~~
+/rhome/a/amulalic1/workspace/UUP/Z4/Z3/main.c:26:6: note: expected ‘char *’ but argument is of type ‘char (*)[50]’
+ void upisi(char *prvi,char *drugi) {
+      ^~~~~

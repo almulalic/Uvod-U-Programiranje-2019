@@ -1,0 +1,67 @@
+{
+    "buildhost_description": {
+        "id": "lab002c01",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "gcc (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 3,
+    "compile_result": {
+        "status": 2,
+        "output": "main.c: In function ‘main’:\nmain.c:8:11: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 2 has type ‘double’ [-Wformat=]\n  scanf(\"%lf %lf %lf %lf\",a,b,c,d);\n           ^\nmain.c:8:15: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 3 has type ‘double’ [-Wformat=]\n  scanf(\"%lf %lf %lf %lf\",a,b,c,d);\n               ^\nmain.c:8:19: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 4 has type ‘double’ [-Wformat=]\n  scanf(\"%lf %lf %lf %lf\",a,b,c,d);\n                   ^\nmain.c:8:23: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 5 has type ‘double’ [-Wformat=]\n  scanf(\"%lf %lf %lf %lf\",a,b,c,d);\n                       ^\nmain.c:12:2: error: expected ‘;’ before ‘else’\n  else if( b > c || d < a)\n  ^~~~",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "8",
+                "col": "11",
+                "message": "format '%lf' expects argument of type 'double *', but argument 2 has type 'double'",
+                "output": "/tmp/buildservice/bs_2024/main.c:8:11: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 2 has type ‘double’ [-Wformat=]  scanf(\"%lf %lf %lf %lf\",a,b,c,d);           ^",
+                "code": "scanf(\"%lf %lf %lf %lf\",a,b,c,d);"
+            },
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "8",
+                "col": "15",
+                "message": "format '%lf' expects argument of type 'double *', but argument 3 has type 'double'",
+                "output": "/tmp/buildservice/bs_2024/main.c:8:15: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 3 has type ‘double’ [-Wformat=]  scanf(\"%lf %lf %lf %lf\",a,b,c,d);               ^",
+                "code": "scanf(\"%lf %lf %lf %lf\",a,b,c,d);"
+            },
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "8",
+                "col": "19",
+                "message": "format '%lf' expects argument of type 'double *', but argument 4 has type 'double'",
+                "output": "/tmp/buildservice/bs_2024/main.c:8:19: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 4 has type ‘double’ [-Wformat=]  scanf(\"%lf %lf %lf %lf\",a,b,c,d);                   ^",
+                "code": "scanf(\"%lf %lf %lf %lf\",a,b,c,d);"
+            },
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "8",
+                "col": "23",
+                "message": "format '%lf' expects argument of type 'double *', but argument 5 has type 'double'",
+                "output": "/tmp/buildservice/bs_2024/main.c:8:23: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 5 has type ‘double’ [-Wformat=]  scanf(\"%lf %lf %lf %lf\",a,b,c,d);                       ^",
+                "code": "scanf(\"%lf %lf %lf %lf\",a,b,c,d);"
+            },
+            {
+                "type": "error",
+                "file": "main.c",
+                "line": "12",
+                "col": "2",
+                "message": "expected ';' before 'else'",
+                "output": "/tmp/buildservice/bs_2024/main.c:12:2: error: expected ‘;’ before ‘else’  else if( b > c || d < a)  ^~~~",
+                "code": "else if( b > c || d < a)"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": [],
+    "queue_items": 13,
+    "time": 1573427628
+}

@@ -1,0 +1,85 @@
+{
+    "buildhost_description": {
+        "id": "lab002-c03",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n"
+    },
+    "tools": {
+        "compile": "gcc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-23)",
+        "compile[debug]": "gcc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-23)",
+        "debug": "GNU gdb (GDB) Red Hat Enterprise Linux (7.2-92.el6)",
+        "profile[memcheck]": "valgrind-3.8.1",
+        "profile[sgcheck]": "valgrind-3.8.1"
+    },
+    "status": 4,
+    "test_results": {
+        "1": {
+            "success": false,
+            "status": 3,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 5,
+                    "duration": 0,
+                    "output": "main.c: In function ‘max_slog’:\nmain.c:125: warning: passing argument 1 of ‘upisi’ from incompatible pointer type\nmain.c:26: note: expected ‘char *’ but argument is of type ‘char (*)[50]’\n/tmp/ccywUnqD.o: In function `main':\nmain.c:144: undefined reference to `izbaci_anagrame'\ncollect2: ld returned 1 exit status",
+                    "exit_code": 1,
+                    "success": false,
+                    "parsed_output": []
+                }
+            }
+        },
+        "2": {
+            "success": false,
+            "status": 3,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 5,
+                    "duration": 0,
+                    "output": "main.c: In function ‘max_slog’:\nmain.c:125: warning: passing argument 1 of ‘upisi’ from incompatible pointer type\nmain.c:26: note: expected ‘char *’ but argument is of type ‘char (*)[50]’\n/tmp/cczLEN4M.o: In function `main':\nmain.c:145: undefined reference to `izbaci_anagrame'\ncollect2: ld returned 1 exit status",
+                    "exit_code": 1,
+                    "success": false,
+                    "parsed_output": []
+                }
+            }
+        },
+        "3": {
+            "success": false,
+            "status": 3,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 5,
+                    "duration": 0,
+                    "output": "main.c: In function ‘max_slog’:\nmain.c:125: warning: passing argument 1 of ‘upisi’ from incompatible pointer type\nmain.c:26: note: expected ‘char *’ but argument is of type ‘char (*)[50]’\n/tmp/ccIzCO1T.o: In function `main':\nmain.c:144: undefined reference to `izbaci_anagrame'\nmain.c:145: undefined reference to `izbaci_anagrame'\nmain.c:146: undefined reference to `izbaci_anagrame'\ncollect2: ld returned 1 exit status",
+                    "exit_code": 1,
+                    "success": false,
+                    "parsed_output": []
+                }
+            }
+        },
+        "4": {
+            "success": false,
+            "status": 3,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 5,
+                    "duration": 0,
+                    "output": "main.c: In function ‘max_slog’:\nmain.c:125: warning: passing argument 1 of ‘upisi’ from incompatible pointer type\nmain.c:26: note: expected ‘char *’ but argument is of type ‘char (*)[50]’\n/tmp/cczADwEY.o: In function `main':\nmain.c:144: undefined reference to `izbaci_anagrame'\nmain.c:145: undefined reference to `izbaci_anagrame'\nmain.c:146: undefined reference to `izbaci_anagrame'\ncollect2: ld returned 1 exit status",
+                    "exit_code": 1,
+                    "success": false,
+                    "parsed_output": []
+                }
+            }
+        }
+    },
+    "time": 1578079403
+}

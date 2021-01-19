@@ -1,0 +1,280 @@
+{
+    "buildhost_description": {
+        "id": "lab002-c05",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n"
+    },
+    "tools": {
+        "compile": "gcc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-23)",
+        "compile[debug]": "gcc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-23)",
+        "debug": "GNU gdb (GDB) Red Hat Enterprise Linux (7.2-92.el6)",
+        "profile[memcheck]": "valgrind-3.8.1",
+        "profile[sgcheck]": "valgrind-3.8.1"
+    },
+    "status": 4,
+    "test_results": {
+        "1": {
+            "success": false,
+            "status": 6,
+            "tools": {
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "execute": {
+                    "output": "Unesite kombinaciju: Neispravna kombinacija!\nUnesite kombinaciju: Unesite kombinaciju: Unesite racun: Jelo nije u ponudi\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: ",
+                    "duration": 0,
+                    "status": false,
+                    "exit_code": 0,
+                    "success": 6
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "Unesite kombinaciju: Neispravna kombinacija!\nUnesite kombinaciju: Unesite kombinaciju: Unesite racun: Jelo nije u ponudi\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun:",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "Unesite kombinaciju: Neispravna kombinacija!\nUnesite kombinaciju: Unesite kombinaciju: Unesite racun: Jelo nije u ponudi\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun:",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "2": {
+            "success": false,
+            "status": 6,
+            "tools": {
+                "execute": {
+                    "output": "Unesite kombinaciju: Neispravna kombinacija!\nUnesite kombinaciju: Neispravna kombinacija!\nUnesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: ",
+                    "duration": 0,
+                    "status": false,
+                    "exit_code": 0,
+                    "success": 6
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "Unesite kombinaciju: Neispravna kombinacija!\nUnesite kombinaciju: Neispravna kombinacija!\nUnesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun:",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "Unesite kombinaciju: Neispravna kombinacija!\nUnesite kombinaciju: Neispravna kombinacija!\nUnesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun:",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "3": {
+            "success": false,
+            "status": 6,
+            "tools": {
+                "execute": {
+                    "output": "Unesite kombinaciju: Neispravna kombinacija!\nUnesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: ",
+                    "duration": 0,
+                    "status": false,
+                    "exit_code": 0,
+                    "success": 6
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "Unesite kombinaciju: Neispravna kombinacija!\nUnesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun:",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "Unesite kombinaciju: Neispravna kombinacija!\nUnesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun:",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "4": {
+            "success": false,
+            "status": 6,
+            "tools": {
+                "execute": {
+                    "output": "Unesite kombinaciju: Unesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: ",
+                    "duration": 0,
+                    "status": false,
+                    "exit_code": 0,
+                    "success": 6
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "Unesite kombinaciju: Unesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun:",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "Unesite kombinaciju: Unesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun:",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "5": {
+            "success": false,
+            "status": 6,
+            "tools": {
+                "execute": {
+                    "output": "Unesite kombinaciju: Unesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: ",
+                    "duration": 0,
+                    "status": false,
+                    "exit_code": 0,
+                    "success": 6
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "Unesite kombinaciju: Unesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun:",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "Unesite kombinaciju: Unesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun:",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "6": {
+            "success": false,
+            "status": 6,
+            "tools": {
+                "execute": {
+                    "output": "Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Neispravna kombinacija!\nUnesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: ",
+                    "duration": 0,
+                    "status": false,
+                    "exit_code": 0,
+                    "success": 6
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Neispravna kombinacija!\nUnesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun:",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Neispravna kombinacija!\nUnesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun:",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "7": {
+            "success": false,
+            "status": 6,
+            "tools": {
+                "execute": {
+                    "output": "Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: ",
+                    "duration": 0,
+                    "status": false,
+                    "exit_code": 0,
+                    "success": 6
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun:",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun:",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "8": {
+            "success": false,
+            "status": 6,
+            "tools": {
+                "execute": {
+                    "output": "Unesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: ",
+                    "duration": 0,
+                    "status": false,
+                    "exit_code": 0,
+                    "success": 6
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "Unesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun:",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "Unesite kombinaciju: Unesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun: Ukupan iznos racuna je: 0.00 KM\nUnesite racun:",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        }
+    },
+    "time": 1575240833
+}
